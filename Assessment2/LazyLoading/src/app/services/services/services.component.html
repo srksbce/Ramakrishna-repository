@@ -1,0 +1,40 @@
+<p>services works!</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>S.NO</th>
+            <th>Employee Number</th>
+            <th>Employee Name</th>
+            <th>Employee Salary</th>
+            <td>Details</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of employees; let k=index;">
+            <td>{{k+1}}</td>
+            <td>{{emp.enumber}}</td>
+            <td>{{emp.ename}}</td>
+            <td>{{emp.esalary}}</td>
+
+            <td>
+                <!-- <a [routerLink]="['./employee-details']" [queryParams]="{empNumber: emp.empNumber}">View Details</a> -->
+                <a [routerLink]="['./employee-details', emp.enumber]">View Details</a>
+
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<a [routerLink]="[ ]" (click)="selectTab(1)">Tab1</a> &nbsp;; | &nbsp;
+<a [routerLink]="[ ]" (click)="selectTab(1)">Tab2</a> &nbsp;; | &nbsp;
+<a [routerLink]="[ ]" (click)="selectTab(1)">Tab3</a> &nbsp;; | &nbsp;
+<a [routerLink]="[ ]" (click)="selectTab(1)">Tab4</a> &nbsp;; | &nbsp;
+<div [ngSwitch]="1">
+    <div *ngSwitchCase="1"> one </div>
+    <div *ngSwitchCase="2"> two </div>
+    <div *ngSwitchCase="3"> three </div>
+    <div *ngSwitchCase="4"> four </div>
+
+    <div *ngSwitchDefault> three </div>
+
+</div>

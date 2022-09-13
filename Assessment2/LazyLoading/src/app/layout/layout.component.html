@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <a [routerLink]="['/home']"> Home</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+            <a [routerLink]="['/about']">About</a> &nbsp; &nbsp; | &nbsp; &nbsp;
+            <a [routerLink]="['/services']">Services</a>&nbsp; &nbsp; | &nbsp; &nbsp;
+            <a [routerLink]="['/contactus']">Contact Us</a>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <router-outlet></router-outlet>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                Dedigned by: SNAD Developers
+            </div>
+        </div>
+    </div>

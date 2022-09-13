@@ -1,0 +1,55 @@
+﻿Q1) Call by Value and call by Reference?
+
+Ans : Call by Value
+
+        when formal arguments are modified if the modifications are not effecting on actual arguments that is call by value
+
+        in c#.net by default parameters will be passing as call by value.
+
+     Call by reference
+
+        in call by reference if we modify formal arguments the modifications will be reflecting on actual arguments
+      
+Q6) Diffrence between abstract class and interfaces?
+
+     Abstract class:
+     1.to create an abstract clas we will use abstract keyword
+        ex: abstract class Student
+             {
+               }
+     2.abstract class is collection of abstract and non abstract members
+     3.we cant inherit mutiple abstract classes to a class,we can inherit single abstract class to a class
+     4.we can implement a method with in the abstract class
+     5.abstract class contains fields
+     6.we can implement a property within the abstract class
+     7.abstract class contain constructors and destructors
+
+    Interfaces:
+     
+     1.to create an interface we will use interface keyword
+      
+       ex:interface IStudent
+           {
+               }
+      2.interface is a collection of abstract member. by default all the interface members are public and abstract
+      3.we can inherit mutiple interfaces .because c#.net will support multiple inheritance using interfaces
+      4.interfaces cant contain fields
+      5.we cannot implement a property with in the interface
+      6.interface cant contain constructors and destructors  
+
+Q7)Explain About method overloading and overriding?
+          
+     method overloading:
+          
+               it means having multiple methods with same name but a different number of arguments or
+      diffrent type of arguments in a single class or combination of base and derived class.
+
+       it depends on
+          1.type of parametrs to a method
+          2.number of parameters to a method
+          3.order of parameters to a method
+          4.it will not depends on return type of a method and parameter names of a method
+
+     method Overriding
+   
+          it means having multiple methods with same name  and same in combination of base and derived classes

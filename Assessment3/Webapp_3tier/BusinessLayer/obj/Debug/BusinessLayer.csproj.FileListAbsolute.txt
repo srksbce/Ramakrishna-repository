@@ -1,0 +1,9 @@
+D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\Webapp_3tier\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\Webapp_3tier\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\Webapp_3tier\BusinessLayer\bin\Debug\DataAccessLayer.dll
+D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\Webapp_3tier\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\Webapp_3tier\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\Webapp_3tier\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\Webapp_3tier\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\Webapp_3tier\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\Webapp_3tier\BusinessLayer\obj\Debug\BusinessLayer.pdb
