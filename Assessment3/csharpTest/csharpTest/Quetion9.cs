@@ -8,7 +8,7 @@ namespace csharpTest
 {
    public class Quetion9
     {
-        //Removing Duplicate characters
+        //Removing Duplicate characters from given string
         static void Main(string[] args)
         {
             Console.WriteLine("Enter String");

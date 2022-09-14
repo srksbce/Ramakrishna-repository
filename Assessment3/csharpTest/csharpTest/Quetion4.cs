@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace csharpTest
-{
+{            //change first character of word in capital
     public class Quetion4
     {
         static void Main(string[] args)

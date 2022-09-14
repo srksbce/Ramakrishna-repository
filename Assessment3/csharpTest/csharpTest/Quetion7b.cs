@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 using System.Data.Sql;
 
 namespace csharpTest
-{
+{            //method overriding
     public class Quetion7b //Base class
     {
         public virtual void display()
