@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace csharpTest
-{
+{             //addition,multiplication,substraction,division of given numbers
     internal class Quetion2
     {
         public static int Sum(int x, int y)
@@ -27,6 +27,12 @@ namespace csharpTest
             total = x * y;
             return total;
         }
+          public static int div(int x, int y)
+        {
+            int total;
+            total = x / y;
+            return total;
+        }
 
             static void Main(string[] args)
         {
@@ -40,8 +46,9 @@ namespace csharpTest
             Console.Write("Enter y Number :");
             int y = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Sum of Two Integers is :" + Sum(x,y));
-            Console.WriteLine("Mul of Two Integers is :" + Sub(x,y));
-            Console.WriteLine("Mul of Two Integers is :" + Mul(x,y));
+            Console.WriteLine("substraction of Two Integers is :" + Sub(x,y));
+            Console.WriteLine("Multiplication of Two Integers is :" + Mul(x,y));
+            console.WriteLine("Division of two Numbers is :" +div(x,y) );
         }
     }
 }

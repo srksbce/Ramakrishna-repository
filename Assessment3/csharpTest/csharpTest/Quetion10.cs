@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace csharpTest
 {
    public class Quetion10
-    {
+    {           //return a reverse 
         static void Main(string[] args)
         {
             string Str, Revstr = ""; 

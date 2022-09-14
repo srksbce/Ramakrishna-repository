@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 namespace csharpTest
 {
    public class Quetion11
-    {
+    {       //display Data from Database to C# application using Nuget Package system.data.sqlclient;
         static void Main(string[] args)
         {
             using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-6EOHVMA\\SQLEXPRESS;Initial Catalog=snadDB;Integrated Security=True"))

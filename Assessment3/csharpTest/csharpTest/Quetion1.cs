@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace csharpTest
-{
+{            //call By value call by refrence
   public  class Quetion1
     {
         public void Swap(int x, int y)

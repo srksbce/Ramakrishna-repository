@@ -8,6 +8,7 @@ namespace csharpTest
 {
     public class Quetion3
     {
+        //max number and minimum number in given numbers
 
         static void Main(string[] args)
         {

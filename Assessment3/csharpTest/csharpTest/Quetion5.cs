@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace csharpTest
 {
     public class Quetion5
-    {
+    {             //find number of capital and small letters in a given word
         public static void Main()
         {
             string Str;
