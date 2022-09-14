@@ -960,19 +960,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RK\\.nuget\\packages\\": {}
+    "C:\\Users\\RK\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS DOTNET\\Graduate-Trainee-s-Lab-Work\\RamaKrishna\\AssessmentTest2\\csharpTest\\csharpTest\\csharpTest.csproj",
+      "projectUniqueName": "D:\\Ramakrishna-repository\\Assessment3\\csharpTest\\csharpTest\\csharpTest.csproj",
       "projectName": "csharpTest",
-      "projectPath": "D:\\VS DOTNET\\Graduate-Trainee-s-Lab-Work\\RamaKrishna\\AssessmentTest2\\csharpTest\\csharpTest\\csharpTest.csproj",
+      "projectPath": "D:\\Ramakrishna-repository\\Assessment3\\csharpTest\\csharpTest\\csharpTest.csproj",
       "packagesPath": "C:\\Users\\RK\\.nuget\\packages\\",
-      "outputPath": "D:\\VS DOTNET\\Graduate-Trainee-s-Lab-Work\\RamaKrishna\\AssessmentTest2\\csharpTest\\csharpTest\\obj\\",
+      "outputPath": "D:\\Ramakrishna-repository\\Assessment3\\csharpTest\\csharpTest\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\RK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

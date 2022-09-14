@@ -28,3 +28,33 @@ D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\csharpTest\
 D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\csharpTest\csharpTest\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\csharpTest\csharpTest\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\VS DOTNET\Graduate-Trainee-s-Lab-Work\RamaKrishna\AssessmentTest2\csharpTest\csharpTest\obj\Debug\net6.0\csharpTest.csproj.CopyComplete
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\obj\Debug\net6.0\csharpTest.csproj.AssemblyReference.cache
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\obj\Debug\net6.0\csharpTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\obj\Debug\net6.0\csharpTest.AssemblyInfoInputs.cache
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\obj\Debug\net6.0\csharpTest.AssemblyInfo.cs
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\obj\Debug\net6.0\csharpTest.csproj.CoreCompileInputs.cache
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\obj\Debug\net6.0\csharpTest.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\obj\Debug\net6.0\refint\csharpTest.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\obj\Debug\net6.0\csharpTest.pdb
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\csharpTest.exe
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\csharpTest.deps.json
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\csharpTest.runtimeconfig.json
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\csharpTest.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\csharpTest.pdb
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\obj\Debug\net6.0\csharpTest.csproj.CopyComplete
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\obj\Debug\net6.0\csharpTest.genruntimeconfig.cache
+D:\Ramakrishna-repository\Assessment3\csharpTest\csharpTest\obj\Debug\net6.0\ref\csharpTest.dll

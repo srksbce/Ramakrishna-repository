@@ -48,7 +48,7 @@ namespace csharpTest
             Console.WriteLine("Sum of Two Integers is :" + Sum(x,y));
             Console.WriteLine("substraction of Two Integers is :" + Sub(x,y));
             Console.WriteLine("Multiplication of Two Integers is :" + Mul(x,y));
-            console.WriteLine("Division of two Numbers is :" +div(x,y) );
+            Console.WriteLine("Division of two Numbers is :" +div(x,y) );
         }
     }
 }
