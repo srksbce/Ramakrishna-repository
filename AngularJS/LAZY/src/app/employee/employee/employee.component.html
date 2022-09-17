@@ -1,0 +1,22 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Emp. Number</th>
+            <th>Emp. Name</th>
+            <th>Emp. Salary</th>
+            <td>Details</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of employees">
+            <td>{{emp.empNumber}}</td>
+            <td>{{emp.empName}}</td>
+            <td>{{emp.empSalary}}</td>
+            <td>
+                <!-- <a [routerLink]="['./employee-details']" [queryParams]="{empNumber: emp.empNumber}">View Details</a> -->
+                <a [routerLink]="['./employee-details', emp.empNumber]">View Details</a>
+
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -17,13 +17,15 @@
             <td>{{emp.esalary}}</td>
 
             <td>
-                <!-- <a [routerLink]="['./employee-details']" [queryParams]="{empNumber: emp.empNumber}">View Details</a> -->
+
                 <a [routerLink]="['./employee-details', emp.enumber]">View Details</a>
 
             </td>
         </tr>
     </tbody>
 </table>
+
+
 <br>
 <a [routerLink]="[ ]" (click)="selectTab(1)">Tab1</a> &nbsp;; | &nbsp;
 <a [routerLink]="[ ]" (click)="selectTab(1)">Tab2</a> &nbsp;; | &nbsp;
