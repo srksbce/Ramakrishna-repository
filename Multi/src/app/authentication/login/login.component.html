@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <div class="container">
+        <br><br>
+
+        <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+            <div class="text-center">
+                <h2>Login</h2>
+            </div>
+            <form name="loginForm" #loginForm="ngForm" (ngSubmit)="loginForm.valid && login(loginForm)">
+         
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form2Example1">Email address</label>
+                    <input type="email" id="form2Example1" name="userName" #userName="ngModel"
+                        [(ngModel)]="loginObj.userName" class="form-control" required />
+                    <small
+                        *ngIf="(userName.touched && userName.invalid) || (userName.invalid && loginForm.submitted)">User
+                        Name is
+                        mandatory</small>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="form2Example2">Password</label>
+                    <input type="password" id="form2Example2" name="password" #password="ngModel"
+                        [(ngModel)]="loginObj.password" class="form-control" required />
+                    <small
+                        *ngIf="(password.touched && password.invalid) || (password.invalid && loginForm.submitted)">Password
+                        is
+                        mandatory</small>
+                </div>
+
+         
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-block mb-4 ">Sign in</button>
+
+                </div>
+
+              
+                <div class="text-center">
+                    <p>Not a member? <a [routerLink]="['/signup']">Register</a></p>
+
+                </div>
+            </form>
+
+        </div>
+
+    </div> -->
+
+    <br>
+    <br><br>
+    <div class="main-container">
+
+        <div class="child-div1">
+            <h1><b>ANALYZE</b></h1>
+            <p>TODAY'S CHALLANGES</p>
+
+            <h1><b>ENVISION</b></h1>
+            <P>TOMMOROW'S INNOVATION</P>
+
+        </div>
+
+        <div class="child-div2">
+
+
+
+            <form class="loginhere" style="top:50px">
+                <div class="img">
+                    <img alt="" src="/Multi/src/assets/snadicon.png" />
+                </div>
+                <h2><b>Login here</b></h2>
+                <div class="forms" style="padding:30px">
+
+
+                    <div class="forms1">
+
+                        <i class="uil uil-user" style="margin-left:-38px"></i>
+                        <label for="UserId"></label>
+
+                        <input style="margin: 7px -17px 12px 0px;" type="email" class="user" placeholder="UserId">
+
+
+                    </div>
+
+                    <div>
+                        <label for="Password"></label>
+
+                        <input :type="password" style="margin: 7px 0px 12px 0px;margin-left:-11px"
+                            placeholder="Password" class="user">
+
+                    </div>
+
+
+                    <!-- <p
+                class="text-red-500 text-xs font-thin"
+                v-for="error of v$.person.Entity.$errors"
+                :key="error.$uid" style="font-family:sans-serif"
+              >
+                {{ error.$message }}
+              </p> -->
+                    <label for="Entity" placeholder="Entity">
+                        <i class="uil uil-clipboard-notes" style="margin: 7px 0px 12px 0px;margin-left:-11px"></i>
+                        <select
+                            style="margin: 7px 0px 12px 0px;border-radius:20px;padding:13.5px;border: 1px solid black;width:55%;left: -92px;"
+                            name="Entity" id="Entity" class="user">
+
+                            <option disabled selected value>Entity</option>
+                            <!-- <option   v-for="(entity,index) in responsedata" :key="index">{{entity.entity}}</option> -->
+                        </select>
+                    </label>
+
+                    <div class="main-div">
+                        <div>
+                            <input type="checkbox" id="customCheck" value="Remember me"
+                                class="custom-control-input remember">
+                            <label for="remember me"> Remember me</label>
+
+                        </div>
+                        <div>
+                            <span>
+                                <a class="regis1" href="/forgotpassword"><b>Forgot Password</b></a>
+                            </span>
+                        </div>
+                    </div>
+
+
+                    <br>
+                    <button class="button" type="submit">Login </button>
+                    <!-- <h6>OR</h6>
+         <a href=""> <i class="uil uil-google" style="margin-left:-5px"></i> <label for="remember me"><b class="regis1">Continue with Google</b></label></a> -->
+                    <h4>Don't have an account? <a class="regis1" href="/registrationPage"><b>Signup Now</b></a></h4>
+                    <!-- <a href="/abc">abc</a> -->
+
+                </div>
+
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

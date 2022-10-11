@@ -1,0 +1,22 @@
+<h3>Department List</h3>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>Dept ID</th>
+            <th>Dept Name</th>
+            <th>Dept Location</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let dep of department">
+            <td>{{dep.deptId}}</td>
+            <td>{{dep.deptName}}</td>
+            <td>{{dep.deptLocation}}</td>
+            <td>
+                <a [routerLink]="['../employee']" [queryParams]="{deptId:dep.deptId}">View Employees</a>
+            </td>
+
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+            <div class="text-center">
+                <h2>Login</h2>
+            </div>
+            <form name="loginForm" #loginForm="ngForm" (ngSubmit)="loginForm.valid && login(loginForm)">
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <label class="form-label" for="userName">Email address</label>
+                    <input type="email" name="userName" id="userName" #userName="ngModel" class="form-control"
+                        [(ngModel)]="loginUser.userName" required />
+                    <small *ngIf="(userName.touched && userName.invalid) || (userName.invalid && loginForm.submitted)">
+                        User Name is mandatory
+                    </small>
+                </div>
+
+                <div class=" form-outline mb-4">
+                    <label class="form-label" for="password">Password</label>
+                    <input type="password" id="password" name="password" #password="ngModel" class="form-control"
+                        [(ngModel)]="loginUser.password" required />
+                    <small *ngIf="(password.touched && password.invalid) || (password.invalid && loginForm.submitted)">
+                        Password is mandatory</small>
+                </div>
+
+                <!-- 2 column grid layout for inline styling -->
+
+
+                <!-- Submit button -->
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-block mb-4 ">Sign in</button>
+
+                </div>
+
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>Not a member? <a [routerLink]="['/signup']">Register</a></p>
+
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
