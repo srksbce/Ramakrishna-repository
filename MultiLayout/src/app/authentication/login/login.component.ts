@@ -34,7 +34,7 @@ export class LoginComponent implements OnInit, OnDestroy {
           if (this.returnurl)
             this.route.navigate([this.returnurl]);
           else
-            this.route.navigate(["/admin/employee"]);
+            this.route.navigate(["/employee"]);
 
           alert(data.message);
           this.loginObj = {} as ILogin;

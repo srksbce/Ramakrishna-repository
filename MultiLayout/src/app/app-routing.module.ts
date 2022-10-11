@@ -8,7 +8,9 @@ import { AUTHENTICATION_ROUTES } from './routes/authentication-routing';
 
 const routes: Routes = [
   { path: '', component: AuthenticationLayoutComponent, children: AUTHENTICATION_ROUTES },
-  { path: 'admin', component: AdminLayoutComponent, children: ADMIN_ROUTES, canActivate: [AuthGuard] }
+  { path: '', component: AdminLayoutComponent, children: ADMIN_ROUTES, canActivate: [AuthGuard] },
+
+  // { path: 'contactus', loadChildren: () => import("./contactus/contactus.module").then(x => x.ContactusModule) }
 ];
 
 @NgModule({
