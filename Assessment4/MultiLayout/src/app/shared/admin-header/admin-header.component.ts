@@ -12,10 +12,9 @@ export class AdminHeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
   logout() {
     localStorage.removeItem("token");
     this.router.navigate(["/"]);
-  }
 
+  }
 }

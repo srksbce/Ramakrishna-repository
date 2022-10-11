@@ -13,7 +13,7 @@ import { ILogin } from '../register-model';
 })
 export class LoginComponent implements OnInit, OnDestroy {
 
-  loginUser = {} as ILogin;
+  loginObj = {} as ILogin;
   subscription!: Subscription;
   returnurl!: string | null;
   constructor(private _authenticationservice: AuthenticationServiceService, private route: Router, private activatedRoute: ActivatedRoute) { }
@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit, OnDestroy {
     this.returnurl = this.activatedRoute.snapshot.queryParamMap.get("returnurl");
   }
   public login(f: NgForm) {
-    this.subscription = this._authenticationservice.postData("Accounts/LoginUser", this.loginUser).subscribe({
+    this.subscription = this._authenticationservice.postData("Accounts/LoginUser", this.loginObj).subscribe({
       next: (data: any) => {
         console.log(data);
         if (data.successCode = 200) {
@@ -37,7 +37,7 @@ export class LoginComponent implements OnInit, OnDestroy {
             this.route.navigate(["/admin/employee"]);
 
           alert(data.message);
-          this.loginUser = {} as ILogin;
+          this.loginObj = {} as ILogin;
           f.resetForm();
           //this.route.navigate(["/admin"]);
         }

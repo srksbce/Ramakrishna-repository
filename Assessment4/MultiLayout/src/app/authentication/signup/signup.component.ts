@@ -2,7 +2,9 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { AuthenticationService } from 'src/app/services/authentication.service';
+
+import { AuthenticationServiceService } from 'src/app/services/authentication.service.service';
+
 import { IRegister } from '../register-model';
 
 @Component({
@@ -16,19 +18,21 @@ export class SignupComponent implements OnInit, OnDestroy {
   confirmPassword!: string;
   subscription!: Subscription;
 
-  constructor(private _authenticationService: AuthenticationService, private router: Router) { }
+  constructor(private _authenticationservice: AuthenticationServiceService, private router: Router) { }
 
   ngOnInit(): void {
   }
 
   register(f: NgForm) {
-    this.subscription = this._authenticationService.postData("Accounts", this.registerUser).subscribe({
+    this.subscription = this._authenticationservice.postData("Accounts", this.registerUser).subscribe({
+
       next: (data: any) => {
         console.log(data);
         if (data.statusCode == 200) {
           alert(data.message);
           this.registerUser = {} as IRegister;
           f.resetForm();
+
           this.router.navigate(["/"]);
         }
         else {
@@ -45,4 +49,5 @@ export class SignupComponent implements OnInit, OnDestroy {
     if (this.subscription)
       this.subscription.unsubscribe();
   }
+
 }

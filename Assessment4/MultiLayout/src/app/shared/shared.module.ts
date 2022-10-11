@@ -15,6 +15,11 @@ import { AdminFooterComponent } from './admin-footer/admin-footer.component';
     CommonModule,
     SharedRoutingModule
   ],
-  exports: [AdminHeaderComponent, AdminFooterComponent]
+  exports: [
+
+    AdminHeaderComponent,
+    AdminFooterComponent
+
+  ]
 })
 export class SharedModule { }

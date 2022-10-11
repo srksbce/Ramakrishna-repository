@@ -1,3 +1,158 @@
 small {
     color: red !important;
 }
+
+
+.font-thin {
+    font-size: 14px;
+    color: #c40b0b;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.child-div1 {
+    width: 65%;
+}
+
+.child-div2 {
+    width: 35%;
+}
+
+div {
+    text-align: center;
+}
+
+.backbtn {
+    text-align: left;
+}
+
+input[type=email] {
+
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    transition-duration: 5s;
+
+}
+
+input[type=text]:hover {
+    border-color: rgb(87, 239, 87);
+    transition-duration: 5s;
+    transition-duration: 5s;
+}
+
+input[type=email]:hover {
+    border-color: rgb(87, 239, 87);
+    transition-duration: 5s;
+    transition-duration: 5s;
+}
+
+input[type=password] {
+
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+select {
+    width: 28%;
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+input[type=button] {
+    width: 10%;
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(119, 6, 6);
+    color: white;
+    font-family: sans-serif;
+}
+
+.button {
+
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #dddddd;
+    background: #634ed8;
+    outline: none;
+    transition: border-color 0.5s;
+    font-family: sans-serif;
+}
+
+.button1 {
+
+    padding: 12px 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(15, 6, 119);
+    color: white;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+
+
+
+.img {
+    text-align: left 2px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+
+.backbtn {
+    align-items: baseline;
+    font-family: sans-serif;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+    display: inline-block;
+    font-family: sans-serif;
+    width: auto;
+}
+
+.FG {
+    text-justify: auto;
+    text-align: right;
+}
+
+body {
+    background: -webkit-linear-gradient(left #bb8c9a);
+    margin: 15px;
+    margin-top: 50px;
+    position: relative;
+    font-family: sans-serif;
+    background: #634ed8;
+
+
+}
+
+.loginhere,
+.loginhere * {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0px;
+
+
+
+
+
+
+}

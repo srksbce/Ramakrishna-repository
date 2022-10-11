@@ -2,8 +2,9 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { AuthenticationService } from 'src/app/services/authentication.service';
+import { AuthenticationServiceService } from 'src/app/services/authentication.service.service';
 import { ILogin } from '../register-model';
+
 
 @Component({
   selector: 'app-login',
@@ -14,40 +15,46 @@ export class LoginComponent implements OnInit, OnDestroy {
 
   loginObj = {} as ILogin;
   subscription!: Subscription;
-  returnUrl!: string | null;
-
-  constructor(
-    private _authenticationService: AuthenticationService,
-    private router: Router,
-    private activatedRoute: ActivatedRoute
-  ) { }
+  returnurl!: string | null;
+  constructor(private _authenticationservice: AuthenticationServiceService, private route: Router, private activatedRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
-    //this.loginObj = { userName: 'padma@gmail.com', password: 'Padma@123' }
-    this.returnUrl = this.activatedRoute.snapshot.queryParamMap.get("returnUrl");
+    // this.loginUser = {
+    //   userName: 'srk.sbce@gmail.com',
+    //   password: 'Rama@123'
+    // }
+    this.returnurl = this.activatedRoute.snapshot.queryParamMap.get("returnurl");
   }
-
   public login(f: NgForm) {
-    this.subscription = this._authenticationService.postData("Accounts/LoginUser", this.loginObj).subscribe({
+    this.subscription = this._authenticationservice.postData("Accounts/LoginUser", this.loginObj).subscribe({
       next: (data: any) => {
-        if (data.statusCode == 200 && data.data != null) {
-          console.log(data);
-          localStorage.setItem("token", data.data);
-          if (this.returnUrl)
-            this.router.navigate([this.returnUrl]);
+        console.log(data);
+        if (data.successCode = 200) {
+          localStorage.setItem("token", data.data)
+          if (this.returnurl)
+            this.route.navigate([this.returnurl]);
           else
-            this.router.navigate(["/admin/employee"]);
+            this.route.navigate(["/admin/employee"]);
+
+          alert(data.message);
+          this.loginObj = {} as ILogin;
+          f.resetForm();
+          //this.route.navigate(["/admin"]);
         }
         else {
           console.log(data.message);
         }
+
       },
       error: reason => console.log(reason)
-    });
-  }
 
+    });
+
+
+  }
   ngOnDestroy(): void {
     if (this.subscription)
       this.subscription.unsubscribe();
   }
+
 }

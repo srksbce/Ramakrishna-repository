@@ -1,17 +1,23 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
+import { from } from 'rxjs';
+
+
 
 @Injectable({
   providedIn: 'root'
 })
-export class AuthenticationService {
+export class AuthenticationServiceService {
 
   ApiUrl = environment.ApiUrl;
+
 
   constructor(private _http: HttpClient) { }
 
   public postData(url: string, object: any) {
-    return this._http.post(`${this.ApiUrl}${url}`, object);
+
+    return this._http.post(`${this.ApiUrl}${url}`, object)
+
   }
 }

@@ -1,5 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
+
 import { HttpService } from 'src/app/services/http.service';
 import { IDepartment } from './department-model';
 
@@ -10,22 +11,23 @@ import { IDepartment } from './department-model';
 })
 export class DepartmentComponent implements OnInit, OnDestroy {
 
-  departments = [] as IDepartment[];
-  subscription!: Subscription;
-
+  department = [] as IDepartment[];
+  subscription!: Subscription
   constructor(private http: HttpService) { }
 
   ngOnInit(): void {
-    this.loadDepartments();
+    this.loadDepartment();
   }
-
-  loadDepartments() {
+  loadDepartment() {
     this.subscription = this.http.getData("Department").subscribe({
+
       next: (data: any) => {
-        this.departments = data.data as IDepartment[];
+        this.department = data.data as IDepartment[];
+        console.log(this.department);
       },
       error: reason => console.log(reason)
     });
+
   }
 
   ngOnDestroy(): void {
@@ -34,3 +36,6 @@ export class DepartmentComponent implements OnInit, OnDestroy {
   }
 
 }
+
+
+
