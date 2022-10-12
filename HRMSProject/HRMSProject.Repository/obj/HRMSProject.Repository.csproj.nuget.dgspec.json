@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ramakrishna-repository\\Assessment5\\HRMSProject\\HRMSProject.Repository\\HRMSProject.Repository.csproj": {}
+    "D:\\Ramakrishna-repository\\HRMSProject\\HRMSProject.Repository\\HRMSProject.Repository.csproj": {}
   },
   "projects": {
-    "D:\\Ramakrishna-repository\\Assessment5\\HRMSProject\\HRMSProject.Repository\\HRMSProject.Repository.csproj": {
+    "D:\\Ramakrishna-repository\\HRMSProject\\HRMSProject.Repository\\HRMSProject.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ramakrishna-repository\\Assessment5\\HRMSProject\\HRMSProject.Repository\\HRMSProject.Repository.csproj",
+        "projectUniqueName": "D:\\Ramakrishna-repository\\HRMSProject\\HRMSProject.Repository\\HRMSProject.Repository.csproj",
         "projectName": "HRMSProject.Repository",
-        "projectPath": "D:\\Ramakrishna-repository\\Assessment5\\HRMSProject\\HRMSProject.Repository\\HRMSProject.Repository.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Ramakrishna-repository\\Assessment5\\HRMSProject\\HRMSProject.Repository\\obj\\",
+        "projectPath": "D:\\Ramakrishna-repository\\HRMSProject\\HRMSProject.Repository\\HRMSProject.Repository.csproj",
+        "packagesPath": "C:\\Users\\RK\\.nuget\\packages\\",
+        "outputPath": "D:\\Ramakrishna-repository\\HRMSProject\\HRMSProject.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

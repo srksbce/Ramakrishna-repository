@@ -8,19 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\RK\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ramakrishna-repository\\Assessment5\\HRMSProject\\HRMSProject.Models\\HRMSProject.Models.csproj",
+      "projectUniqueName": "D:\\Ramakrishna-repository\\HRMSProject\\HRMSProject.Models\\HRMSProject.Models.csproj",
       "projectName": "HRMSProject.Models",
-      "projectPath": "D:\\Ramakrishna-repository\\Assessment5\\HRMSProject\\HRMSProject.Models\\HRMSProject.Models.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Ramakrishna-repository\\Assessment5\\HRMSProject\\HRMSProject.Models\\obj\\",
+      "projectPath": "D:\\Ramakrishna-repository\\HRMSProject\\HRMSProject.Models\\HRMSProject.Models.csproj",
+      "packagesPath": "C:\\Users\\RK\\.nuget\\packages\\",
+      "outputPath": "D:\\Ramakrishna-repository\\HRMSProject\\HRMSProject.Models\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
