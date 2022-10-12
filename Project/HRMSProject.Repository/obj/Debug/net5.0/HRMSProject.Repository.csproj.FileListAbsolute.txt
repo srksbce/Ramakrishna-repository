@@ -1,0 +1,15 @@
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\bin\Debug\net5.0\HRMSProject.Repository.deps.json
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\bin\Debug\net5.0\HRMSProject.Repository.runtimeconfig.json
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\bin\Debug\net5.0\HRMSProject.Repository.runtimeconfig.dev.json
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\bin\Debug\net5.0\HRMSProject.Repository.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\bin\Debug\net5.0\HRMSProject.Repository.pdb
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\obj\Debug\net5.0\HRMSProject.Repository.csproj.AssemblyReference.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\obj\Debug\net5.0\HRMSProject.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\obj\Debug\net5.0\HRMSProject.Repository.AssemblyInfoInputs.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\obj\Debug\net5.0\HRMSProject.Repository.AssemblyInfo.cs
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\obj\Debug\net5.0\HRMSProject.Repository.csproj.CoreCompileInputs.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\obj\Debug\net5.0\HRMSProject.Repository.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\obj\Debug\net5.0\refint\HRMSProject.Repository.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\obj\Debug\net5.0\HRMSProject.Repository.pdb
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\obj\Debug\net5.0\HRMSProject.Repository.genruntimeconfig.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Repository\obj\Debug\net5.0\ref\HRMSProject.Repository.dll

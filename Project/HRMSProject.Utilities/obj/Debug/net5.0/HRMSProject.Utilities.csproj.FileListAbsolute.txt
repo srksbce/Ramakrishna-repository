@@ -1,0 +1,12 @@
+D:\Ramakrishna-repository\Project\HRMSProject.Utilities\bin\Debug\net5.0\HRMSProject.Utilities.deps.json
+D:\Ramakrishna-repository\Project\HRMSProject.Utilities\bin\Debug\net5.0\HRMSProject.Utilities.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Utilities\bin\Debug\net5.0\HRMSProject.Utilities.pdb
+D:\Ramakrishna-repository\Project\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.csproj.AssemblyReference.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ramakrishna-repository\Project\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.AssemblyInfoInputs.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.AssemblyInfo.cs
+D:\Ramakrishna-repository\Project\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.csproj.CoreCompileInputs.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Utilities\obj\Debug\net5.0\refint\HRMSProject.Utilities.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.pdb
+D:\Ramakrishna-repository\Project\HRMSProject.Utilities\obj\Debug\net5.0\ref\HRMSProject.Utilities.dll

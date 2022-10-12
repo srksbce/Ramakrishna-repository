@@ -1,0 +1,12 @@
+D:\Ramakrishna-repository\Project\HRMSProject.Models\bin\Debug\net5.0\HRMSProject.Models.deps.json
+D:\Ramakrishna-repository\Project\HRMSProject.Models\bin\Debug\net5.0\HRMSProject.Models.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Models\bin\Debug\net5.0\HRMSProject.Models.pdb
+D:\Ramakrishna-repository\Project\HRMSProject.Models\obj\Debug\net5.0\HRMSProject.Models.csproj.AssemblyReference.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Models\obj\Debug\net5.0\HRMSProject.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ramakrishna-repository\Project\HRMSProject.Models\obj\Debug\net5.0\HRMSProject.Models.AssemblyInfoInputs.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Models\obj\Debug\net5.0\HRMSProject.Models.AssemblyInfo.cs
+D:\Ramakrishna-repository\Project\HRMSProject.Models\obj\Debug\net5.0\HRMSProject.Models.csproj.CoreCompileInputs.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Models\obj\Debug\net5.0\HRMSProject.Models.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Models\obj\Debug\net5.0\refint\HRMSProject.Models.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Models\obj\Debug\net5.0\HRMSProject.Models.pdb
+D:\Ramakrishna-repository\Project\HRMSProject.Models\obj\Debug\net5.0\ref\HRMSProject.Models.dll

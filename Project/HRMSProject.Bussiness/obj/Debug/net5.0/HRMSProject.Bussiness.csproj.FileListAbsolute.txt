@@ -1,0 +1,17 @@
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\bin\Debug\net5.0\HRMSProject.Bussiness.deps.json
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\bin\Debug\net5.0\HRMSProject.Bussiness.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\bin\Debug\net5.0\HRMSProject.Bussiness.pdb
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\obj\Debug\net5.0\HRMSProject.Bussiness.csproj.AssemblyReference.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\obj\Debug\net5.0\HRMSProject.Bussiness.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\obj\Debug\net5.0\HRMSProject.Bussiness.AssemblyInfoInputs.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\obj\Debug\net5.0\HRMSProject.Bussiness.AssemblyInfo.cs
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\obj\Debug\net5.0\HRMSProject.Bussiness.csproj.CoreCompileInputs.cache
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\obj\Debug\net5.0\HRMSProject.Bussiness.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\obj\Debug\net5.0\refint\HRMSProject.Bussiness.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\obj\Debug\net5.0\HRMSProject.Bussiness.pdb
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\obj\Debug\net5.0\ref\HRMSProject.Bussiness.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\bin\Debug\net5.0\HRMSProject.Models.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\bin\Debug\net5.0\HRMSProject.Repository.dll
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\bin\Debug\net5.0\HRMSProject.Models.pdb
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\bin\Debug\net5.0\HRMSProject.Repository.pdb
+D:\Ramakrishna-repository\Project\HRMSProject.Bussiness\obj\Debug\net5.0\HRMSProject.Bussiness.csproj.CopyComplete

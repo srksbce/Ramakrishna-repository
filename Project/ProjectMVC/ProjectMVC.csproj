@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HRMSProject.Bussiness\HRMSProject.Bussiness.csproj" />
+    <ProjectReference Include="..\HRMSProject.Communication\HRMSProject.Communication.csproj" />
+    <ProjectReference Include="..\HRMSProject.Models\HRMSProject.Models.csproj" />
+    <ProjectReference Include="..\HRMSProject.Repository\HRMSProject.Repository.csproj" />
+    <ProjectReference Include="..\HRMSProject.Utilities\HRMSProject.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

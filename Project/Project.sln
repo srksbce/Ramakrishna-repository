@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectMVC", "ProjectMVC\ProjectMVC.csproj", "{97B9075F-551B-435F-8F69-94FC633A469F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMSProject.Bussiness", "HRMSProject.Bussiness\HRMSProject.Bussiness.csproj", "{0B4448BC-E88B-4D53-A797-C530A9380376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMSProject.Repository", "HRMSProject.Repository\HRMSProject.Repository.csproj", "{59BB6EE9-C371-45CA-8FEC-F0666A321576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMSProject.Models", "HRMSProject.Models\HRMSProject.Models.csproj", "{C48FDAF1-C534-46FA-A678-0E734ECD375A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMSProject.Communication", "HRMSProject.Communication\HRMSProject.Communication.csproj", "{D5DC64C3-F160-46B1-85AD-0139CB34AC2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMSProject.Utilities", "HRMSProject.Utilities\HRMSProject.Utilities.csproj", "{23CE75C6-FE30-4245-A99D-525883DBA8A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97B9075F-551B-435F-8F69-94FC633A469F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B9075F-551B-435F-8F69-94FC633A469F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B9075F-551B-435F-8F69-94FC633A469F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B9075F-551B-435F-8F69-94FC633A469F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4448BC-E88B-4D53-A797-C530A9380376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4448BC-E88B-4D53-A797-C530A9380376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4448BC-E88B-4D53-A797-C530A9380376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4448BC-E88B-4D53-A797-C530A9380376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BB6EE9-C371-45CA-8FEC-F0666A321576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BB6EE9-C371-45CA-8FEC-F0666A321576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BB6EE9-C371-45CA-8FEC-F0666A321576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BB6EE9-C371-45CA-8FEC-F0666A321576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48FDAF1-C534-46FA-A678-0E734ECD375A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48FDAF1-C534-46FA-A678-0E734ECD375A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48FDAF1-C534-46FA-A678-0E734ECD375A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48FDAF1-C534-46FA-A678-0E734ECD375A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DC64C3-F160-46B1-85AD-0139CB34AC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DC64C3-F160-46B1-85AD-0139CB34AC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DC64C3-F160-46B1-85AD-0139CB34AC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DC64C3-F160-46B1-85AD-0139CB34AC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23CE75C6-FE30-4245-A99D-525883DBA8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CE75C6-FE30-4245-A99D-525883DBA8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CE75C6-FE30-4245-A99D-525883DBA8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CE75C6-FE30-4245-A99D-525883DBA8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A7F22C0-3004-4ED6-B1E9-86D27A491414}
+	EndGlobalSection
+EndGlobal
