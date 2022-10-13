@@ -1,0 +1,31 @@
+﻿@model MVCAPP.ViewModels.DeptEmp
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1>Employee Details</h1>
+        <h1>Employee Id :@Model.employee.EmpId</h1>
+        <h1>Employee Name :@Model.employee.EmpName</h1>
+        <h1>Employee Salary :@Model.employee.EmpSalary</h1>
+        <br />
+        <h1>Department Details</h1>
+        <h1>Deapartment Id :@Model.Department.DeptId</h1>
+        <h1>DeapartMent Name :@Model.Department.DeptName</h1>
+        <h1>Department Location :@Model.Department.DeptLocation</h1>
+    </div>
+
+    <br />
+    <br />
+    <a href="/home/DisplayEmployees">Show All Employees</a>
+</body>
+</html>
