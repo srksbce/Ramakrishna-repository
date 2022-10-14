@@ -16,11 +16,11 @@ namespace MVC.Models
     public partial class Employee
     {
         public int EmpId { get; set; }
-        [Required(ErrorMessage ="Department Name is mandatory")]
+        [Required(ErrorMessage = "Department Id is mandatory ")]
         public int DeptId { get; set; }
-        [Required(ErrorMessage = "Employee Name is mandatory")]
+        [Required(ErrorMessage = "Employee Name is mandatory ")]
         public string EmpName { get; set; }
-        [Required(ErrorMessage = "Employee salary is mandatory")]
+        [Required(ErrorMessage = "Employee salary is mandatory ")]
         public decimal EmpSalary { get; set; }
     
         public virtual Department Department { get; set; }

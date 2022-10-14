@@ -21,11 +21,10 @@ namespace MVC.Models
         }
     
         public int DeptId { get; set; }
-        public string DeptName { get; set; }
+        public string DeptnName { get; set; }
         public string DeptLocation { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Employee> Employees { get; set; }
-        //Navigational properities
     }
 }

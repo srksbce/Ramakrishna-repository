@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="ramDBModelStoreContainer" CdmEntityContainer="ramDBEntities">
+  <EntityContainerMapping StorageEntityContainer="snadDBModelStoreContainer" CdmEntityContainer="snadDBEntities">
     <EntitySetMapping Name="Departments">
-      <EntityTypeMapping TypeName="ramDBModel.Department">
+      <EntityTypeMapping TypeName="snadDBModel.Department">
         <MappingFragment StoreEntitySet="Department">
           <ScalarProperty Name="DeptId" ColumnName="DeptId" />
-          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+          <ScalarProperty Name="DeptnName" ColumnName="DeptnName" />
           <ScalarProperty Name="DeptLocation" ColumnName="DeptLocation" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Employees">
-      <EntityTypeMapping TypeName="ramDBModel.Employee">
+      <EntityTypeMapping TypeName="snadDBModel.Employee">
         <MappingFragment StoreEntitySet="Employee">
           <ScalarProperty Name="EmpId" ColumnName="EmpId" />
           <ScalarProperty Name="DeptId" ColumnName="DeptId" />

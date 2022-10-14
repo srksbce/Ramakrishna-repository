@@ -13,10 +13,10 @@ namespace MVC.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ramDBEntities : DbContext
+    public partial class snadDBEntities : DbContext
     {
-        public ramDBEntities()
-            : base("name=ramDBEntities")
+        public snadDBEntities()
+            : base("name=snadDBEntities")
         {
         }
     
@@ -26,6 +26,6 @@ namespace MVC.Models
         }
     
         public virtual DbSet<Department> Departments { get; set; }
-        public virtual DbSet<Employee> Employees { get; set; }
+        public virtual DbSet<Employee> employees { get; set; }
     }
 }
